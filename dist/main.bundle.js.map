@@ -1,0 +1,1 @@
+{"version":3,"file":"main.bundle.js","mappings":";;;;;AAAA","sources":["webpack://typescript/./src/index.ts"],"sourcesContent":["const test = '123';\r\n"],"names":[],"sourceRoot":""}
