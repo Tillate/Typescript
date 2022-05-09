@@ -61,7 +61,7 @@ function add(nbr1, nbr2): number {
 function add2(nbr1: number, nbr2: number): number {
   return 5;
 }
-function add30(nbr1: number, nbr2: number): void {
+function add3(nbr1: number, nbr2: number): void {
   //Void indique que la fonction ne doit rien retourner
   console.log(nbr1 + nbr2);
 }
