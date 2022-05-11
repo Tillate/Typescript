@@ -1,7 +1,13 @@
 {
     "files":["src/index.ts"],
     "compilerOptions": {
+        "outDir":"./dist",
         "module": "ESNext",
-        "target": "ES6"
+        "target": "ES6",
+        "baseUrl": ".",
+        "allowJs": true,
+        "paths": {
+            "jquery": ["node_modules/jquery/dist/jquery"]
+        }
     }
 }
