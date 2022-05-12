@@ -16,11 +16,15 @@ module.exports = {
         exclude: /(node_modules)/,
         use: ['ts-loader'],
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, './src/index.html'),
+      template: path.join(__dirname, './index.html'),
     }),
   ],
   stats: 'minimal',
